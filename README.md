@@ -1,6 +1,7 @@
 # Expense Tracker Full-Stack App
 
 A full-stack web application built with **React**, **Express**, and **MongoDB** for recording, managing, and visualizing your expenses.
+
 ---
 
 ## Technologies Used
@@ -18,6 +19,7 @@ A full-stack web application built with **React**, **Express**, and **MongoDB** 
 - **Pie chart** for category distribution  
 - **Bar chart** for monthly spending  
 - Responsive, user-friendly interface  
+
 ---
 
 ## Backend
@@ -29,7 +31,7 @@ npm install
 # PORT=5000
 npm start
 
-## Frontend
+## Frontend 
 
 cd ../frontend
 npm install
@@ -37,17 +39,14 @@ npm install
 # REACT_APP_API_URL=http://localhost:5000/expenses
 npm start
 
-## API Endpoints
+## API Endpoints 
 
 GET /expenses — list all expenses
 POST /expenses — add new expense
 PUT /expenses/:id — update expense
 DELETE /expenses/:id — remove expense
 
-## 📸 Screenshots
+## Screenshots
 
-### Dashboard View  
-![Dashboard](./screenshots/dashboard.png)
+I've added screenshots of working both forntend and backend servers in Screenshots Folder in Project Structure
 
-### Expense Form  
-![Form](./screenshots/form.png)
