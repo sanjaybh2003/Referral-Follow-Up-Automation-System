@@ -1,0 +1,9 @@
+node_modules/
+.env
+frontend/node_modules/
+frontend/build/
+backend/node_modules/
+screenshots/
+.DS_Store
+.vscode/
+EOF
