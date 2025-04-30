@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 .env
 webhook.log
-.DS_Store 
+.DS_Store
+*.db 
