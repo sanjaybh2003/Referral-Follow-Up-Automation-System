@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}All Referrals - Referral Management{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <h1 class="display-4">All Referrals</h1>
+        <p class="lead">View and manage all referral submissions</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Company</th>
+                                <th>LinkedIn</th>
+                                <th>Status</th>
+                                <th>Received</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for referral in referrals %}
+                            <tr>
+                                <td>{{ referral.full_name }}</td>
+                                <td>{{ referral.company_name }}</td>
+                                <td>
+                                    <a href="{{ referral.linkedin_profile }}" class="linkedin-link" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status-badge status-{{ referral.status }}">
+                                        {{ referral.status|title }}
+                                    </span>
+                                </td>
+                                <td>{{ referral.created_at }}</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#viewModal{{ referral.id }}">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-success" onclick="updateStatus({{ referral.id }}, 'accepted')">
+                                        <i class="fas fa-check"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-danger" onclick="updateStatus({{ referral.id }}, 'rejected')">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <!-- View Modal -->
+                            <div class="modal fade" id="viewModal{{ referral.id }}" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">{{ referral.full_name }}</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><strong>Company:</strong> {{ referral.company_name }}</p>
+                                            <p><strong>LinkedIn:</strong> <a href="{{ referral.linkedin_profile }}" target="_blank">{{ referral.linkedin_profile }}</a></p>
+                                            <p><strong>Description:</strong></p>
+                                            <p>{{ referral.description }}</p>
+                                            <p><strong>Status:</strong> <span class="status-badge status-{{ referral.status }}">{{ referral.status|title }}</span></p>
+                                            <p><strong>Received:</strong> {{ referral.created_at }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

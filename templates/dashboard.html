@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Referral Management{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <h1 class="display-4">Dashboard</h1>
+        <p class="lead">Welcome to the Referral Management System</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="fas fa-users me-2"></i>Total Referrals
+                </h5>
+                <h2 class="display-4">{{ referrals|length }}</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="fas fa-clock me-2"></i>Pending
+                </h5>
+                <h2 class="display-4">{{ referrals|selectattr('status', 'equalto', 'pending')|list|length }}</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="fas fa-check-circle me-2"></i>Accepted
+                </h5>
+                <h2 class="display-4">{{ referrals|selectattr('status', 'equalto', 'accepted')|list|length }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h3>Recent Referrals</h3>
+        {% for referral in referrals[:5] %}
+        <div class="card referral-card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">{{ referral.full_name }}</h5>
+                    <span class="status-badge status-{{ referral.status }}">
+                        {{ referral.status|title }}
+                    </span>
+                </div>
+                <h6 class="card-subtitle mb-2 text-muted">{{ referral.company_name }}</h6>
+                <p class="card-text">{{ referral.description }}</p>
+                <a href="{{ referral.linkedin_profile }}" class="linkedin-link" target="_blank">
+                    <i class="fab fa-linkedin me-1"></i>View LinkedIn Profile
+                </a>
+                <p class="card-text mt-2">
+                    <small class="text-muted">Received on {{ referral.created_at }}</small>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %} 
