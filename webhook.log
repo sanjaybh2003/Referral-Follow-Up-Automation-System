@@ -1,0 +1,254 @@
+2025-04-30 15:18:10,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.53:5000
+2025-04-30 15:18:10,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 15:18:10,530 - INFO -  * Restarting with stat
+2025-04-30 15:18:10,859 - WARNING -  * Debugger is active!
+2025-04-30 15:18:10,869 - INFO -  * Debugger PIN: 941-002-924
+2025-04-30 15:18:44,948 - INFO - 127.0.0.1 - - [30/Apr/2025 15:18:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:18:45,129 - INFO - 127.0.0.1 - - [30/Apr/2025 15:18:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 15:20:21,538 - INFO - 127.0.0.1 - - [30/Apr/2025 15:20:21] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:20:22,471 - INFO - 127.0.0.1 - - [30/Apr/2025 15:20:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:21:23,285 - INFO - 127.0.0.1 - - [30/Apr/2025 15:21:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:21:28,392 - INFO - 127.0.0.1 - - [30/Apr/2025 15:21:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:23:43,730 - INFO - 127.0.0.1 - - [30/Apr/2025 15:23:43] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-04-30 15:27:03,240 - INFO - 127.0.0.1 - - [30/Apr/2025 15:27:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 15:27:05,154 - INFO - 127.0.0.1 - - [30/Apr/2025 15:27:05] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-04-30 15:27:06,295 - INFO - 127.0.0.1 - - [30/Apr/2025 15:27:06] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-04-30 15:36:36,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-30 15:36:36,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 15:37:01,511 - INFO - 127.0.0.1 - - [30/Apr/2025 15:37:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:27:34,457 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-04-30 18:27:34,548 - INFO -  * Restarting with stat
+2025-04-30 18:27:34,782 - WARNING -  * Debugger is active!
+2025-04-30 18:27:34,792 - INFO -  * Debugger PIN: 941-002-924
+2025-04-30 18:28:39,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.53:8000
+2025-04-30 18:28:39,300 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 18:28:39,300 - INFO -  * Restarting with stat
+2025-04-30 18:28:39,531 - WARNING -  * Debugger is active!
+2025-04-30 18:28:39,538 - INFO -  * Debugger PIN: 941-002-924
+2025-04-30 18:36:46,097 - INFO - 127.0.0.1 - - [30/Apr/2025 18:36:46] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-04-30 18:36:47,965 - INFO - 127.0.0.1 - - [30/Apr/2025 18:36:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:47:49,939 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-04-30 18:47:49,981 - INFO -  * Restarting with stat
+2025-04-30 18:47:50,226 - WARNING -  * Debugger is active!
+2025-04-30 18:47:50,233 - INFO -  * Debugger PIN: 941-002-924
+2025-04-30 18:47:50,403 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-04-30 18:47:50,452 - INFO -  * Restarting with stat
+2025-04-30 18:47:50,682 - WARNING -  * Debugger is active!
+2025-04-30 18:47:50,689 - INFO -  * Debugger PIN: 941-002-924
+2025-04-30 18:48:00,099 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:00] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-04-30 18:48:01,470 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:48:01,832 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:48:02,016 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:48:02,224 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:48:02,753 - INFO - 127.0.0.1 - - [30/Apr/2025 18:48:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:49:00,322 - INFO - 127.0.0.1 - - [30/Apr/2025 18:49:00] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:49:00,338 - INFO - 127.0.0.1 - - [30/Apr/2025 18:49:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 18:49:02,103 - INFO - 127.0.0.1 - - [30/Apr/2025 18:49:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-30 18:58:38,690 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-04-30 18:58:38,733 - INFO -  * Restarting with stat
+2025-04-30 18:58:39,191 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-04-30 18:58:39,239 - INFO -  * Restarting with stat
+2025-04-30 19:37:53,802 - INFO - Received webhook data: {'company ': 'XYZ', 'contacted_on': '28/04/25', 'followup_date': '+7d', 'full_name': 'K Sanjay Bhargav', 'linkedIn': 'https://www.linkedin.com/in/ksanjaybhargav/'}
+2025-04-30 19:37:53,803 - INFO - 127.0.0.1 - - [30/Apr/2025 19:37:53] "POST /webhook HTTP/1.1" 200 -
+2025-04-30 19:40:11,421 - INFO - 127.0.0.1 - - [30/Apr/2025 19:40:11] "GET / HTTP/1.1" 200 -
+2025-04-30 19:40:53,688 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.0.53:3000
+2025-04-30 19:40:53,688 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 19:41:28,881 - INFO - 127.0.0.1 - - [30/Apr/2025 19:41:28] "GET / HTTP/1.1" 200 -
+2025-04-30 19:41:56,349 - INFO - 127.0.0.1 - - [30/Apr/2025 19:41:56] "GET / HTTP/1.1" 200 -
+2025-04-30 19:41:56,370 - INFO - 127.0.0.1 - - [30/Apr/2025 19:41:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 19:42:04,426 - INFO - 127.0.0.1 - - [30/Apr/2025 19:42:04] "GET / HTTP/1.1" 200 -
+2025-04-30 20:30:45,932 - INFO - 127.0.0.1 - - [30/Apr/2025 20:30:45] "GET / HTTP/1.1" 200 -
+2025-04-30 20:50:15,055 - INFO - 127.0.0.1 - - [30/Apr/2025 20:50:15] "GET / HTTP/1.1" 200 -
+2025-04-30 21:39:48,229 - INFO - 127.0.0.1 - - [30/Apr/2025 21:39:48] "GET / HTTP/1.1" 200 -
+2025-04-30 21:40:31,587 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/in/testuser', 'full_name': 'Test User', 'company_name': 'Test Company', 'description': 'Senior Developer referral'}
+2025-04-30 21:40:31,587 - INFO - 127.0.0.1 - - [30/Apr/2025 21:40:31] "POST /webhook HTTP/1.1" 200 -
+2025-04-30 21:40:40,335 - INFO - 127.0.0.1 - - [30/Apr/2025 21:40:40] "[33mGET /referrals HTTP/1.1[0m" 404 -
+2025-04-30 21:41:12,190 - INFO - 127.0.0.1 - - [30/Apr/2025 21:41:12] "[33mGET /referrals HTTP/1.1[0m" 404 -
+2025-04-30 21:42:26,673 - INFO - 127.0.0.1 - - [30/Apr/2025 21:42:26] "GET / HTTP/1.1" 200 -
+2025-04-30 21:42:26,854 - INFO - 127.0.0.1 - - [30/Apr/2025 21:42:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 21:42:37,023 - INFO - 127.0.0.1 - - [30/Apr/2025 21:42:37] "[33mGET /referrals HTTP/1.1[0m" 404 -
+2025-04-30 21:49:29,138 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/in/testuser', 'full_name': 'Test User', 'company_name': 'Test Company', 'description': 'Test Referral'}
+2025-04-30 21:56:05,255 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/in/newuser', 'full_name': 'Jane Smith', 'company_name': 'Tech Solutions', 'description': 'Senior Developer Position'}
+2025-05-02 18:18:32,501 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.0.53:5001
+2025-05-02 18:18:32,502 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 18:18:32,503 - INFO -  * Restarting with stat
+2025-05-02 18:18:32,974 - WARNING -  * Debugger is active!
+2025-05-02 18:18:32,988 - INFO -  * Debugger PIN: 941-002-924
+2025-05-02 18:18:37,190 - INFO - 127.0.0.1 - - [02/May/2025 18:18:37] "GET / HTTP/1.1" 200 -
+2025-05-02 18:18:37,224 - INFO - 127.0.0.1 - - [02/May/2025 18:18:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 18:18:37,224 - INFO - 127.0.0.1 - - [02/May/2025 18:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 18:18:37,363 - INFO - 127.0.0.1 - - [02/May/2025 18:18:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-02 18:18:39,823 - INFO - 127.0.0.1 - - [02/May/2025 18:18:39] "GET /referrals HTTP/1.1" 200 -
+2025-05-02 18:18:39,851 - INFO - 127.0.0.1 - - [02/May/2025 18:18:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 18:18:39,854 - INFO - 127.0.0.1 - - [02/May/2025 18:18:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 22:18:40,928 - INFO - 127.0.0.1 - - [02/May/2025 22:18:40] "GET / HTTP/1.1" 200 -
+2025-05-02 22:18:40,940 - INFO - 127.0.0.1 - - [02/May/2025 22:18:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 22:18:40,943 - INFO - 127.0.0.1 - - [02/May/2025 22:18:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 22:50:41,713 - INFO - 127.0.0.1 - - [02/May/2025 22:50:41] "GET /referrals HTTP/1.1" 200 -
+2025-05-02 22:50:41,731 - INFO - 127.0.0.1 - - [02/May/2025 22:50:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 22:50:41,732 - INFO - 127.0.0.1 - - [02/May/2025 22:50:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 22:50:42,712 - INFO - 127.0.0.1 - - [02/May/2025 22:50:42] "GET / HTTP/1.1" 200 -
+2025-05-02 22:50:42,735 - INFO - 127.0.0.1 - - [02/May/2025 22:50:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 22:50:42,736 - INFO - 127.0.0.1 - - [02/May/2025 22:50:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 22:50:43,877 - INFO - 127.0.0.1 - - [02/May/2025 22:50:43] "GET / HTTP/1.1" 200 -
+2025-05-02 22:50:43,892 - INFO - 127.0.0.1 - - [02/May/2025 22:50:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 22:50:43,893 - INFO - 127.0.0.1 - - [02/May/2025 22:50:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 22:50:51,012 - INFO - 127.0.0.1 - - [02/May/2025 22:50:51] "GET /referrals HTTP/1.1" 200 -
+2025-05-02 22:50:51,029 - INFO - 127.0.0.1 - - [02/May/2025 22:50:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 22:50:51,030 - INFO - 127.0.0.1 - - [02/May/2025 22:50:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 00:58:33,771 - INFO - 127.0.0.1 - - [03/May/2025 00:58:33] "GET /referrals HTTP/1.1" 200 -
+2025-05-03 00:58:33,790 - INFO - 127.0.0.1 - - [03/May/2025 00:58:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 00:58:33,791 - INFO - 127.0.0.1 - - [03/May/2025 00:58:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 00:58:36,544 - INFO - 127.0.0.1 - - [03/May/2025 00:58:36] "GET /referrals HTTP/1.1" 200 -
+2025-05-03 00:58:36,555 - INFO - 127.0.0.1 - - [03/May/2025 00:58:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 00:58:36,555 - INFO - 127.0.0.1 - - [03/May/2025 00:58:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 12:07:29,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.0.53:5001
+2025-05-03 12:07:29,484 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 12:07:29,486 - INFO -  * Restarting with stat
+2025-05-03 12:07:30,019 - WARNING -  * Debugger is active!
+2025-05-03 12:07:30,038 - INFO -  * Debugger PIN: 941-002-924
+2025-05-03 12:07:32,884 - INFO - 127.0.0.1 - - [03/May/2025 12:07:32] "GET /referrals HTTP/1.1" 200 -
+2025-05-03 12:07:32,924 - INFO - 127.0.0.1 - - [03/May/2025 12:07:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 12:07:32,924 - INFO - 127.0.0.1 - - [03/May/2025 12:07:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 12:07:33,034 - INFO - 127.0.0.1 - - [03/May/2025 12:07:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 12:07:34,662 - INFO - 127.0.0.1 - - [03/May/2025 12:07:34] "GET /referrals HTTP/1.1" 200 -
+2025-05-03 12:07:34,688 - INFO - 127.0.0.1 - - [03/May/2025 12:07:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 12:07:34,696 - INFO - 127.0.0.1 - - [03/May/2025 12:07:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 18:52:24,110 - INFO - 127.0.0.1 - - [03/May/2025 18:52:24] "GET / HTTP/1.1" 200 -
+2025-05-03 18:52:24,123 - INFO - 127.0.0.1 - - [03/May/2025 18:52:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 18:52:24,131 - INFO - 127.0.0.1 - - [03/May/2025 18:52:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 18:52:36,468 - INFO - 127.0.0.1 - - [03/May/2025 18:52:36] "GET / HTTP/1.1" 200 -
+2025-05-03 18:52:36,483 - INFO - 127.0.0.1 - - [03/May/2025 18:52:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 18:52:36,484 - INFO - 127.0.0.1 - - [03/May/2025 18:52:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 18:52:37,620 - INFO - 127.0.0.1 - - [03/May/2025 18:52:37] "GET /referrals HTTP/1.1" 200 -
+2025-05-03 18:52:37,638 - INFO - 127.0.0.1 - - [03/May/2025 18:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 18:52:37,639 - INFO - 127.0.0.1 - - [03/May/2025 18:52:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-03 18:52:38,654 - INFO - 127.0.0.1 - - [03/May/2025 18:52:38] "GET / HTTP/1.1" 200 -
+2025-05-03 18:52:38,678 - INFO - 127.0.0.1 - - [03/May/2025 18:52:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-03 18:52:38,679 - INFO - 127.0.0.1 - - [03/May/2025 18:52:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-07 20:23:06,325 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.114:5001
+2025-05-07 20:23:06,325 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 20:23:06,327 - INFO -  * Restarting with stat
+2025-05-07 20:23:06,784 - WARNING -  * Debugger is active!
+2025-05-07 20:23:06,807 - INFO -  * Debugger PIN: 941-002-924
+2025-05-07 20:23:09,721 - INFO - 127.0.0.1 - - [07/May/2025 20:23:09] "GET / HTTP/1.1" 200 -
+2025-05-07 20:23:09,749 - INFO - 127.0.0.1 - - [07/May/2025 20:23:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 20:23:09,750 - INFO - 127.0.0.1 - - [07/May/2025 20:23:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-07 20:23:10,282 - INFO - 127.0.0.1 - - [07/May/2025 20:23:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 22:17:04,862 - INFO - 127.0.0.1 - - [07/May/2025 22:17:04] "GET / HTTP/1.1" 200 -
+2025-05-07 22:17:04,877 - INFO - 127.0.0.1 - - [07/May/2025 22:17:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 22:17:04,878 - INFO - 127.0.0.1 - - [07/May/2025 22:17:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-10 19:21:03,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.114:5001
+2025-05-10 19:21:03,587 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 19:21:03,588 - INFO -  * Restarting with stat
+2025-05-10 19:21:04,094 - WARNING -  * Debugger is active!
+2025-05-10 19:21:04,104 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 19:21:07,403 - INFO - Request headers: {'Host': 'localhost:5001', 'User-Agent': 'curl/8.7.1', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '142'}
+2025-05-10 19:21:07,404 - INFO - Content-Type: application/json
+2025-05-10 19:21:07,404 - INFO - Request method: POST
+2025-05-10 19:21:07,404 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/test', 'full_name': 'Test User', 'company_name': 'Test Company', 'description': 'Test Description'}
+2025-05-10 19:21:07,417 - INFO - Successfully created referral with ID: 3
+2025-05-10 19:21:07,418 - INFO - 127.0.0.1 - - [10/May/2025 19:21:07] "POST /webhook HTTP/1.1" 200 -
+2025-05-10 19:22:08,674 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/init_db.py', reloading
+2025-05-10 19:22:08,772 - INFO -  * Restarting with stat
+2025-05-10 19:22:09,273 - WARNING -  * Debugger is active!
+2025-05-10 19:22:09,285 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 19:22:10,313 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/init_db.py', reloading
+2025-05-10 19:22:10,521 - INFO -  * Restarting with stat
+2025-05-10 19:22:10,986 - WARNING -  * Debugger is active!
+2025-05-10 19:22:10,998 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 19:22:34,208 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/view_db.py', reloading
+2025-05-10 19:22:34,300 - INFO -  * Restarting with stat
+2025-05-10 19:22:34,789 - WARNING -  * Debugger is active!
+2025-05-10 19:22:34,797 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 19:27:36,314 - INFO - 127.0.0.1 - - [10/May/2025 19:27:36] "GET / HTTP/1.1" 200 -
+2025-05-10 19:27:36,768 - INFO - 127.0.0.1 - - [10/May/2025 19:27:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 19:33:47,100 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-05-10 19:33:47,213 - INFO -  * Restarting with stat
+2025-05-10 19:33:48,309 - INFO - Opening tunnel named: http-5001-a187ffe8-09fc-4413-a35b-ab0451aae742
+2025-05-10 19:33:52,588 - INFO - Opening tunnel named: http-5001-b085b218-bf4a-41ce-8952-6d3430bde2f3
+2025-05-10 19:35:47,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.114:5001
+2025-05-10 19:35:47,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 19:35:47,070 - INFO -  * Restarting with stat
+2025-05-10 19:35:47,570 - WARNING -  * Debugger is active!
+2025-05-10 19:35:47,578 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 19:36:16,045 - INFO - Request headers: {'Host': 'localhost:5001', 'User-Agent': 'curl/8.7.1', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '142'}
+2025-05-10 19:36:16,045 - INFO - Content-Type: application/json
+2025-05-10 19:36:16,046 - INFO - Request method: POST
+2025-05-10 19:36:16,046 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/test', 'full_name': 'Test User', 'company_name': 'Test Company', 'description': 'Test Description'}
+2025-05-10 19:36:16,060 - INFO - Successfully created referral with ID: 6
+2025-05-10 19:36:16,061 - INFO - 127.0.0.1 - - [10/May/2025 19:36:16] "POST /webhook HTTP/1.1" 200 -
+2025-05-10 19:36:40,928 - INFO - 127.0.0.1 - - [10/May/2025 19:36:40] "GET / HTTP/1.1" 200 -
+2025-05-10 19:36:40,957 - INFO - 127.0.0.1 - - [10/May/2025 19:36:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-10 19:36:40,965 - INFO - 127.0.0.1 - - [10/May/2025 19:36:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-10 19:37:55,706 - INFO - 127.0.0.1 - - [10/May/2025 19:37:55] "GET / HTTP/1.1" 200 -
+2025-05-10 19:37:55,719 - INFO - 127.0.0.1 - - [10/May/2025 19:37:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-10 19:37:55,721 - INFO - 127.0.0.1 - - [10/May/2025 19:37:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-10 19:38:40,420 - INFO - Request headers: {'Host': 'd4f2-61-3-71-225.ngrok-free.app', 'User-Agent': 'curl/8.7.1', 'Content-Length': '142', 'Accept': '*/*', 'Content-Type': 'application/json', 'X-Forwarded-For': '61.3.71.225', 'X-Forwarded-Host': 'd4f2-61-3-71-225.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'Accept-Encoding': 'gzip'}
+2025-05-10 19:38:40,420 - INFO - Content-Type: application/json
+2025-05-10 19:38:40,421 - INFO - Request method: POST
+2025-05-10 19:38:40,421 - INFO - Received webhook data: {'linkedin_profile': 'https://linkedin.com/test', 'full_name': 'Test User', 'company_name': 'Test Company', 'description': 'Test Description'}
+2025-05-10 19:38:40,425 - INFO - Successfully created referral with ID: 7
+2025-05-10 19:38:40,426 - INFO - 127.0.0.1 - - [10/May/2025 19:38:40] "POST /webhook HTTP/1.1" 200 -
+2025-05-10 19:41:51,705 - INFO - 127.0.0.1 - - [10/May/2025 19:41:51] "GET / HTTP/1.1" 200 -
+2025-05-10 19:41:51,719 - INFO - 127.0.0.1 - - [10/May/2025 19:41:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-10 19:41:51,720 - INFO - 127.0.0.1 - - [10/May/2025 19:41:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-10 19:43:48,480 - INFO - Request headers: {'Host': 'd4f2-61-3-71-225.ngrok-free.app', 'User-Agent': 'Zapier', 'Content-Length': '202', 'Accept': '*/*', 'Accept-Encoding': 'gzip,deflate', 'Content-Type': 'application/json; charset=utf-8', 'X-Forwarded-For': '54.152.24.61', 'X-Forwarded-Host': 'd4f2-61-3-71-225.ngrok-free.app', 'X-Forwarded-Proto': 'https'}
+2025-05-10 19:43:48,480 - INFO - Content-Type: application/json; charset=utf-8
+2025-05-10 19:43:48,481 - INFO - Request method: POST
+2025-05-10 19:43:48,481 - INFO - Received webhook data: {'Company Name': ' ABC', 'Date You Contacted': ' 03/05/2025 11:30:00', 'Follow Up Date': '2025-05-10 11:30:00 +0000', 'Full Name': 'Sanjay', 'LinkedIn Profile URL': 'https://www.linkedin.com/in/ksanjaybhargav/'}
+2025-05-10 19:43:48,481 - ERROR - Validation errors: Missing required fields: linkedin_profile, full_name, company_name
+2025-05-10 19:43:48,481 - INFO - 127.0.0.1 - - [10/May/2025 19:43:48] "[31m[1mPOST /webhook HTTP/1.1[0m" 400 -
+2025-05-10 19:44:37,790 - INFO - Request headers: {'Host': 'd4f2-61-3-71-225.ngrok-free.app', 'User-Agent': 'Zapier', 'Content-Length': '202', 'Accept': '*/*', 'Accept-Encoding': 'gzip,deflate', 'Content-Type': 'application/json; charset=utf-8', 'X-Forwarded-For': '54.196.129.207', 'X-Forwarded-Host': 'd4f2-61-3-71-225.ngrok-free.app', 'X-Forwarded-Proto': 'https'}
+2025-05-10 19:44:37,792 - INFO - Content-Type: application/json; charset=utf-8
+2025-05-10 19:44:37,792 - INFO - Request method: POST
+2025-05-10 19:44:37,792 - INFO - Received webhook data: {'Company Name': ' ABC', 'Date You Contacted': ' 03/05/2025 11:30:00', 'Follow Up Date': '2025-05-10 11:30:00 +0000', 'Full Name': 'Sanjay', 'LinkedIn Profile URL': 'https://www.linkedin.com/in/ksanjaybhargav/'}
+2025-05-10 19:44:37,792 - ERROR - Validation errors: Missing required fields: linkedin_profile, full_name, company_name
+2025-05-10 19:44:37,793 - INFO - 127.0.0.1 - - [10/May/2025 19:44:37] "[31m[1mPOST /webhook HTTP/1.1[0m" 400 -
+2025-05-10 19:46:16,807 - INFO - Request headers: {'Host': 'd4f2-61-3-71-225.ngrok-free.app', 'User-Agent': 'Zapier', 'Content-Length': '202', 'Accept': '*/*', 'Accept-Encoding': 'gzip,deflate', 'Content-Type': 'application/json; charset=utf-8', 'X-Forwarded-For': '44.213.82.187', 'X-Forwarded-Host': 'd4f2-61-3-71-225.ngrok-free.app', 'X-Forwarded-Proto': 'https'}
+2025-05-10 19:46:16,809 - INFO - Content-Type: application/json; charset=utf-8
+2025-05-10 19:46:16,809 - INFO - Request method: POST
+2025-05-10 19:46:16,809 - INFO - Received webhook data: {'Company Name': ' ABC', 'Date You Contacted': ' 03/05/2025 11:30:00', 'Follow Up Date': '2025-05-10 11:30:00 +0000', 'Full Name': 'Sanjay', 'LinkedIn Profile URL': 'https://www.linkedin.com/in/ksanjaybhargav/'}
+2025-05-10 19:46:16,809 - ERROR - Validation errors: Missing required fields: linkedin_profile, full_name, company_name
+2025-05-10 19:46:16,809 - INFO - 127.0.0.1 - - [10/May/2025 19:46:16] "[31m[1mPOST /webhook HTTP/1.1[0m" 400 -
+2025-05-10 19:55:15,449 - INFO - Request headers: {'Host': 'd4f2-61-3-71-225.ngrok-free.app', 'User-Agent': 'Zapier', 'Content-Length': '198', 'Accept': '*/*', 'Accept-Encoding': 'gzip,deflate', 'Content-Type': 'application/json; charset=utf-8', 'X-Forwarded-For': '3.236.225.212', 'X-Forwarded-Host': 'd4f2-61-3-71-225.ngrok-free.app', 'X-Forwarded-Proto': 'https'}
+2025-05-10 19:55:15,451 - INFO - Content-Type: application/json; charset=utf-8
+2025-05-10 19:55:15,451 - INFO - Request method: POST
+2025-05-10 19:55:15,451 - INFO - Received webhook data: {'company_name': ' ABC', 'Date You Contacted': ' 03/05/2025 11:30:00', 'Follow Up Date': '2025-05-10 11:30:00 +0000', 'full_name': 'Sanjay', 'linkedin_profile': 'https://www.linkedin.com/in/ksanjaybhargav/'}
+2025-05-10 19:55:15,457 - INFO - Successfully created referral with ID: 8
+2025-05-10 19:55:15,458 - INFO - 127.0.0.1 - - [10/May/2025 19:55:15] "POST /webhook HTTP/1.1" 200 -
+2025-05-10 20:44:50,791 - INFO -  * Detected change in '/Users/bhagirath/zapier_flask_webhook/app.py', reloading
+2025-05-10 20:44:50,900 - INFO -  * Restarting with stat
+2025-05-10 20:44:51,560 - WARNING -  * Debugger is active!
+2025-05-10 20:44:51,573 - INFO -  * Debugger PIN: 941-002-924
+2025-05-10 20:48:20,993 - INFO - 127.0.0.1 - - [10/May/2025 20:48:20] "GET / HTTP/1.1" 200 -
+2025-05-10 20:48:21,013 - INFO - 127.0.0.1 - - [10/May/2025 20:48:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-10 20:48:21,014 - INFO - 127.0.0.1 - - [10/May/2025 20:48:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-10 20:48:54,346 - INFO - 127.0.0.1 - - [10/May/2025 20:48:54] "GET /referrals HTTP/1.1" 200 -
+2025-05-10 20:48:54,363 - INFO - 127.0.0.1 - - [10/May/2025 20:48:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-10 20:48:54,365 - INFO - 127.0.0.1 - - [10/May/2025 20:48:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
